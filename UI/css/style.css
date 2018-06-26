@@ -181,6 +181,7 @@ text-decorations:none;
   text-decoration: none;
 }
 /* Adding style to tables */
+
 .divTable{
 	display: table;
 	width: 100%;
@@ -210,4 +211,3 @@ text-decorations:none;
 .divTableBody {
 	display: table-row-group;
 }
-  
