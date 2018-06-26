@@ -10,10 +10,9 @@ body{
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-size:cover;
+  color:#ffffff;
     }
-body::after {
-      opacity : 0.2;
- }
+
 /* Add style to the header section in body*/
  header{
   padding-top:10px
@@ -85,7 +84,7 @@ body::after {
 /* newsletter*/
 #newsletter{
   padding:15px;
-  color:#000000;
+  color:#ffffff;
  }
 #newsletter form{
   float:center;
@@ -100,7 +99,7 @@ body::after {
  footer{
    padding:20px;
    margin-top:20px;
-   color:#000000;
+   color:#ffffff;
    text-align:center;
  }
 /*Add style to tables*/
