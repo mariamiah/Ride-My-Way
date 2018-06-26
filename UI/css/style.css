@@ -15,14 +15,14 @@ body{
 /* Add style to the header section in body*/
  header{
   padding-top:10px
- 
+ min-height:40px;
   border-bottom:#9B8A99 3px solid;
 }
  /* Add a black background color to the top navigation */
 .topnav {
     background-color:#383838;
     overflow:hidden;
-    height:25px;
+    
 }
 /* Style the links inside the navigation bar */
 .topnav a {
