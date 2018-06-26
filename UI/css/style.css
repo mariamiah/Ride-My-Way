@@ -17,6 +17,7 @@ body{
   padding-top:10px
  height:40px;
   border-bottom:#9B8A99 3px solid;
+   display: inline-block;
 }
  /* Add a black background color to the top navigation */
 .topnav {
