@@ -6,7 +6,7 @@ body{
   padding:0;
   margin:0;
   background-color:#AFEEEE;
-  background-image:url("https://mariamiah.github.io/Ride-My-Way/UI/img/photo-1495829577115-59822b79b378.jpg");
+  background-image:url("https://mariamiah.github.io/Ride-My-Way/UI/img/tom-barrett-405369-unsplash.jpg");
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-size:cover;
@@ -26,7 +26,6 @@ body{
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-    float:center;
     color:#ffffff;
     text-align:center;
     text-decoration:none;
@@ -34,8 +33,8 @@ body{
 }
 /*Add style to the unordered list items in the menu */
 .topnav ul {
+  float:right;
   list-style: none;
-  text-align: center;
   padding: 0;
   margin: 0;
 }
