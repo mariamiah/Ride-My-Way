@@ -158,7 +158,8 @@ input[type="checkbox"]{
   width: 30px; /*Desired width*/
   height: 30px; /*Desired height*/
 }
-/* Style the search box inside the navigation bar */
-.topnav input[type=text] {
-    float:right;
-    padding:6px;
+a{
+text-decorations:none;
+  color:inherit;
+}
+  
