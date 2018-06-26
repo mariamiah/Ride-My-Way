@@ -17,41 +17,23 @@
       <li><a href="https://mariamiah.github.io/Ride-My-Way/UI/contact.html">Contact Us</a></li>
              <li><a href="https://mariamiah.github.io/Ride-My-Way/UI/login.html">Login</a></li></ul></div>
        </header>
-    <div id="register" class="animate form" align="center">
-    <form  action="signupsuccess.html" autocomplete="on">
-      <table>
-        <tr><h1> Sign up </h1></tr>
-        <tr>
-          <td>Your username</td>
-          <td><input type="text" name="username" required="required"
-            placeholder="Enter username"></td></tr>
-        <tr>
-          <td>Email</td>
-          <td><input type="email" name="emailsignup" required="required"
-             placeholder="Enter your email"/></td>
-      </tr>
-      <tr>
-        <td>Password </td>
-        <td><input type="password" name="pass1" required="required"
-           placeholder="Enter Password"/></td>
-      </tr>
-      <tr>
-        <td>Confirm password</td>
-        <td><input type="password" name="pass2" required="required"
-          placeholder="Retype password"/></td>
-      </tr>
-      <tr><td></td>
-        <td>
-      <input type="submit" value="Sign up" onclick="myFunction()"/></td>
-    </tr>
-    <tr>
-      <td>Already Registered?</td>
-      <td><a href="login.html" class="to_register"> Log in here</td>
-      </tr>
-    </table>
-    </form>
-  </div>
-  <footer>
+    <section><br><p align="center">Sign Up here</p>
+   <form id="textbox" class="loginForm" align="center" action="signupsuccess.html"autocomplete="on">
+   Email:<br>
+  <input type="email" name="email" placeholder="you@example.com"required="required"width="100"height="100">
+  <br>
+ Password:<br>
+  <input type="password" name="password" placeholder="password"required="required"width="100"height="100"minlength="3">
+  Confirm Password:<br>
+  <input type="password" name="password" placeholder="password"required="required"width="100"height="100"minlength="3">
+  <br><br>
+  <input type="submit" value="Register"id="submitId">
+   <br>
+    Already Registered?
+      <a href="login.html">Login</a>
+      </form></section>
+      
+    <footer>
     <section id="newsletter">
      <div class="container">
        <form align="center">
