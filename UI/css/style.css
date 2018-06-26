@@ -15,26 +15,29 @@ body{
 /* Add style to the header section in body*/
  header{
   padding-top:10px
-    padding-bottom:10px;
- height:60px;
+  min-height:40px;
   border-bottom:#9B8A99 3px solid;
-  
 }
  /* Add a black background color to the top navigation */
 .topnav {
-    background-color:#1a1a1a;
+    background-color:#333333;
     overflow:hidden;
-  height:40px;
-    
 }
 /* Style the links inside the navigation bar */
 .topnav a {
+    float:center;
     color:#ffffff;
     text-align:center;
     text-decoration:none;
-    font-size:15px;
-    }
-
+    font-size:17px;
+}
+/*Add style to the unordered list items in the menu */
+.topnav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
 .topnav li {
   font-family:Arial,Helvetica,sans-serif;
   font-size:18px;
@@ -59,15 +62,6 @@ body{
    color:red;
   cursor: default;
 }
-/*Resizing the getting started button*/
-#search {
-    width: 20em;  height: 5em;
-    color:#ffffff;
-    background-color:#50D050;
-    font-size:15px;
-    border-radius:25px; 
-}
-
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (min-width: 600px) {
   .topnav li {
@@ -77,7 +71,7 @@ body{
     line-height: 50px;
     font-size: 1.4em;
   }
-
+}
      
  /* Add style to the container class*/
   .container{
@@ -89,7 +83,7 @@ body{
 /* newsletter*/
 #newsletter{
   padding:15px;
-  color:#ffffff;
+  color:#000000;
  }
 #newsletter form{
   float:center;
@@ -100,18 +94,12 @@ body{
    height:25px;
    width:250px;
  }
- /*Add font style to footer words*/
- .navbar{
-  font-size:15px;
-  align-items:center;  
- }
- /* Add style to footer*/
+/* Add style to footer*/
  footer{
    padding:20px;
    margin-top:20px;
-   color:#ffffff;
+   color:#000000;
    text-align:center;
-   font-size:20px; 
  }
 /*Add style to tables*/
  table, th, td {
@@ -126,24 +114,3 @@ input[type="checkbox"]{
 .topnav input[type=text] {
     float:right;
     padding:6px;
-    border:none;
-    margin-top:8px;
-    margin-right:16px;
-    font-size:17px;
-}
-/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
-    .topnav a, .topnav input[type=text] {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-  }
-
-
- 
-
-
