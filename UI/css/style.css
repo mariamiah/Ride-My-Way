@@ -15,6 +15,7 @@ body{
 /* Add style to the header section in body*/
  header{
   padding-top:10px
+    padding-bottom:10px;
  height:60px;
   border-bottom:#9B8A99 3px solid;
   
@@ -23,7 +24,7 @@ body{
 .topnav {
     background-color:#1a1a1a;
     overflow:hidden;
-  height:50px;
+  height:40px;
     
 }
 /* Style the links inside the navigation bar */
