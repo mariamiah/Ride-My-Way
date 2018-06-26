@@ -170,13 +170,14 @@ text-decorations:none;
   font-family: Arial;
   color: #ffffff;
   font-size: 52px;
-  background: #55734f;
+    background:#4a403e;
   padding: 11px 19px 10px 20px;
   text-decoration: none;
+  
 }
 
 #btn:hover {
-  background: #191f21;
+  background:#55734f;
   text-decoration: none;
 }
   
