@@ -162,7 +162,7 @@ a{
 text-decorations:none;
   color:inherit;
 }
-.btn {
+#btn {
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
@@ -175,7 +175,7 @@ text-decorations:none;
   text-decoration: none;
 }
 
-.btn:hover {
+#btn:hover {
   background: #191f21;
   text-decoration: none;
 }
