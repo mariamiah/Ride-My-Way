@@ -69,6 +69,13 @@ body{
   float:right;
   display:inline;
 }
+/*Resizing the getting started button*/
+#search {
+    width: 20em;  height: 5em;
+    color:#ffffff;
+    background-color:#50D050;
+    font-size:15px;
+    border-radius:25px; 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (min-width: 600px) {
   .topnav li {
