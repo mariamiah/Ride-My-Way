@@ -114,6 +114,9 @@ body{
    font:18px;
    text-align:center;
  }
+footer a{
+  color:inherit;
+}
 /*Add style to tables*/
  table, th, td {
       padding: 2px;
