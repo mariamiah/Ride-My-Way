@@ -20,9 +20,9 @@ body{
 }
  /* Add a black background color to the top navigation */
 .topnav {
-    background-color:#202020;
+    background-color:#666666;
     overflow:hidden;
-    height:5px;
+    height:15px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
