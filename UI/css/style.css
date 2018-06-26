@@ -110,7 +110,8 @@ body{
  footer{
    padding:20px;
    margin-top:20px;
-   color:#000000;
+   color:#ffffff;
+   font:18px;
    text-align:center;
  }
 /*Add style to tables*/
