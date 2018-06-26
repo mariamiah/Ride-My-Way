@@ -80,11 +80,14 @@ body{
 }
 #email{
   width:100px;
-  height:75px;
+  height:80px;
+  border-radius:14px;
+  
 }
 #password{
   width:100px;
-  height:75px;
+  height:80px;
+  border-radius:14px;
 }
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (min-width: 600px) {
@@ -98,8 +101,8 @@ body{
   #submitId{
    border-radius: 18px;
   -moz-border-radius: 5px
-  width:40 em;
-   height:40 em;
+   width:50%
+   font-size:16px;
   }
     
 }
