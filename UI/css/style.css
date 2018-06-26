@@ -67,6 +67,7 @@ body{
 }
 #list3{
   float:right;
+  display:inline;
 }
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (min-width: 600px) {
