@@ -74,6 +74,9 @@ body{
     font-size:15px;
     border-radius:25px;
 }
+#button_1{
+  width: 7em; height:2em;
+}
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (min-width: 600px) {
   .topnav li {
