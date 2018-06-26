@@ -65,10 +65,9 @@ body{
 #list1{
   float:left;
 }
-#list3{
+#list2{
   float:right;
-  display:inline;
-}
+  width:20%
 /*Resizing the getting started button*/
 #search {
     width: 20em;  height: 5em;
