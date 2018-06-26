@@ -78,6 +78,14 @@ body{
 #button_1{
   width: 7em; height:2em;
 }
+#email{
+  width:100px;
+  height:75px;
+}
+#password{
+  width:100px;
+  height:75px;
+}
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (min-width: 600px) {
   .topnav li {
@@ -88,8 +96,10 @@ body{
     font-size: 1.4em;
   }
   #submitId{
-    border-radius: 18px;
--moz-border-radius: 5px;
+   border-radius: 18px;
+  -moz-border-radius: 5px
+  width:40 em;
+   height:40 em;
   }
     
 }
