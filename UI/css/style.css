@@ -196,7 +196,7 @@ text-decorations:none;
   /* Create four columns of equal width */
   .columns{
     float: left;
-    width: 40%;
+    width: 25%;
     height:10%;
     padding: 4px;
   background-color:#333333;
