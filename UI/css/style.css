@@ -199,7 +199,7 @@ text-decorations:none;
     width: 20%;
     height:10%;
     padding: 4px;
-  background-color:#ffffff;
+  background-color:#333333;
 }
 
 /* Style the list */
@@ -210,7 +210,7 @@ text-decorations:none;
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-  background-color:;#5D737E;
+  background-color:;#333333;
 }
 
 /* Add shadows on hover */
@@ -220,7 +220,7 @@ text-decorations:none;
 
 /*  header */
 .rideoffers .header {
-    background-color:#5D737E;
+    background-color:#333333;
     color:white;
     font-size: 25px;
 
@@ -231,11 +231,11 @@ text-decorations:none;
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
-  background-color:#5D737E;
+  background-color:#333333;
 }
 /* Grey list item */
 .rideoffers .grey {
-    background-color:#5D737E;
+    background-color:#333333;
     font-size: 14px;
 }
 
