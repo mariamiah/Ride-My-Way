@@ -184,51 +184,7 @@ text-decorations:none;
 }
 
 /* Create four columns of equal width */
-.columns {
-    float: left;
-    width: 20%;
-    height:10%;
-    padding: 4px;
-  background-color:#ffffff;
-}
 
-/* Style the list */
-.rideoffers{
-    list-style-type: none;
-    border: 1px solid #eee;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  background-color:;#5D737E;
-}
-
-/* Add shadows on hover */
-.rideoffers:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-/*  header */
-.rideoffers.header {
-    background-color:#5D737E;
-    color: white;
-    font-size: 25px;
-
-}
-
-/* List items */
-.rideoffers li {
-    border-bottom: 1px solid #eee;
-    padding: 20px;
-    text-align: center;
-  background-color:#5D737E;
-}
-
-/* Grey list item */
-.rideoffers.grey {
-    background-color:#5D737E;
-    font-size: 14px;
-}
 
 /* The "Sign Up" button */
 .button {
@@ -245,8 +201,7 @@ text-decorations:none;
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
     .columns {
-        width: 100%;
+        width: 50%;
     }
-}
 
-
+  }
