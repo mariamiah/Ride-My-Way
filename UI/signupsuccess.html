@@ -4,52 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Maria Nanfuka">
-    <title>Ride-My-Way | SignUp success </title>
-  <link rel="stylesheet" href="https://mariamiah.github.io/Ride-My-Way/UI/css/style.css">
+    <title>Ride-My-Way | Welcome </title>
+    <link rel="stylesheet"href="https://mariamiah.github.io/Ride-My-Way/UI/css/style.css">
   </head>
-  <body bgcolor="#d9dadb">
-   <header>
-      <div class="topnav">
-  <a class="home" href="https://mariamiah.github.io/Ride-My-Way/index.html">Home</a>
-  <a href="https://mariamiah.github.io/Ride-My-Way/UI/offerRide.html">Offer Ride</a>
-   <a href="https://mariamiah.github.io/Ride-My-Way/UI/findRide.html">Find Ride</a>
-  <a href="https://mariamiah.github.io/Ride-My-Way/UI/login.html">Login</a>
-   <a href="https://mariamiah.github.io/Ride-My-Way/UI/contact.html">Contact</a>
-  </div>
-   </header>
+  <body>
+  <header class="topnav">
+    <div id="list1">
+    <ul>
+      <li align="left"><a href="index.html">Home</a></li></ul></div>
+    <div id="list2"><ul>
+         <li><a href="https://mariamiah.github.io/Ride-My-Way/UI/aboutus.html">AboutUs</a></li>
+      <li><a href="https://mariamiah.github.io/Ride-My-Way/UI/contact.html">Contact Us</a></li>
+             <li><a href="https://mariamiah.github.io/Ride-My-Way/UI/login.html">Login</a></li></ul></div>
+       </header>
 
    <section id="showcase">
     <div class="container">
       <h3><p align="center">Registration Successful!</p></h3>
             </div>
       </section>
+    <section>
     <h3><p align="center">Login to offer and find rides</p></h3>
-     <form id="login" class="loginForm" align="center" action="dashboard.html">
-      <table align="center">
-          <tr>
-      <td align="left">Username</td>
-      <td><input type="username"name="username"required="required"
-        placeholder="Enter your Username">
-      </td>
-    </tr>
-    <tr>
-      <td align="left">Password</td>
-      <td><input type="password"name="password"required="required"placeholder="Enter your password"></td>
-    </tr>
-      <tr>
-      <td></td>
-      <td align="left"><input type="submit" name="mybutton" value="Login" onclick="myFunction()"/></td>
-    </tr>
-
-    <table>
-     
-  </form>
+    <form id="textbox" class="loginForm" align="center" action="dashboard.html">
+   Email:<br>
+  <input type="email" name="email" placeholder="you@example.com"required="required"width="100"height="100">
+  <br>
+ Password:<br>
+  <input type="password" name="password" placeholder="password"required="required"width="100"height="100"minlength="3">
+  <br><br>
+  <input type="submit" value="Login"id="submitId">
+   <br>
+    Not Registered?
+      <a href="signup.html">Sign up</a>
+      </form></section>
   <footer>
     <section id="newsletter">
      <div class="container">
        <form align="center">
-          <h1 align="center">Subscribe to our newsletter</h1><br>
-         <input type="email" placeholder="Enter Email.">
+                  <input type="email" placeholder="Enter Email.">
          <button type="Submit" class="button_1">Subscribe</button>
        </form></div>
    </section>
