@@ -105,8 +105,7 @@ body{
    font-size:24px;
   }
     
-}
-     
+    
  /* Add style to the container class*/
   .container{
     width:80%
@@ -187,7 +186,7 @@ text-decorations:none;
 /* Create four columns of equal width */
 .columns {
     float: left;
-    width: 33.3%;
+    width: 20%;
     padding: 8px;
 }
 
@@ -222,8 +221,8 @@ text-decorations:none;
 
 /* Grey list item */
 .rideoffers.grey {
-    background-color: #eee;
-    font-size: 20px;
+    background-color: #ffffff;
+    font-size: 14px;
 }
 
 /* The "Sign Up" button */
