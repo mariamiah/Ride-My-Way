@@ -184,7 +184,7 @@ text-decorations:none;
     box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
+/* Create four columns of equal width */
 .columns {
     float: left;
     width: 33.3%;
@@ -192,7 +192,7 @@ text-decorations:none;
 }
 
 /* Style the list */
-.price {
+.rideoffers{
     list-style-type: none;
     border: 1px solid #eee;
     margin: 0;
@@ -202,26 +202,26 @@ text-decorations:none;
 }
 
 /* Add shadows on hover */
-.price:hover {
+.rideoffers:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 
-/* Pricing header */
-.price .header {
+/*  header */
+.rideoffers.header {
     background-color: #111;
     color: white;
     font-size: 25px;
 }
 
 /* List items */
-.price li {
+.rideoffers li {
     border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
 }
 
 /* Grey list item */
-.price .grey {
+.rideoffers.grey {
     background-color: #eee;
     font-size: 20px;
 }
@@ -237,7 +237,7 @@ text-decorations:none;
     font-size: 18px;
 }
 
-/* Change the width of the three columns to 100% 
+/* Change the width of the four columns to 100% 
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
     .columns {
