@@ -187,8 +187,9 @@ text-decorations:none;
 .columns {
     float: left;
     width: 20%;
-    padding: 8px;
-  background-color:#5D737E;
+    height:10%;
+    padding: 4px;
+  background-color:#ffffff;
 }
 
 /* Style the list */
